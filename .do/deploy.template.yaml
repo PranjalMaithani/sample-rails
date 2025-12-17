@@ -1,8 +1,8 @@
 spec:
   name: sample-rails
   services:
-  - environment_slug: ruby-on-rails
-    git:
-      branch: main
-      repo_clone_url: https://github.com/digitalocean/sample-rails.git
-    name: sample-rails
+    - environment_slug: ruby-on-rails
+      git:
+        branch: main
+        repo_clone_url: https://github.com/PranjalMaithani/sample-rails
+      name: sample-rails
